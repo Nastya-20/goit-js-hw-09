@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
-  </head>
-  <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to Gallery</h1>
-    </section>
-    <script type="module" src="./js/1-gallery.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css"
+    integrity="sha384-0M5PL6a1F3T0LHF3ED4Lsd53KZAHHwxJleXMSpCV6Y//bDWWiH6QJ15l1MrVdX3B" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <section>
+    <a href="./index.html">Go to home</a>
+    <h1>Welcome to Gallery</h1>
+  </section>
+  <ul class="gallery">
+    <!-- Gallery items will be inserted here dynamically by JavaScript -->
+  </ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"
+    integrity="sha384-GYo9i2ZdQ/rTFZmkI8wPLnGUmL0QouCCMNwvsh63FJ8++O/ZQyrb5uNZDFmX/M3C"
+    crossorigin="anonymous"></script>
+  <script type="module" src="./js/1-gallery.js"></script>
+</body>
+
 </html>
+
